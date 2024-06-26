@@ -1,5 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
+#pragma once
+
+#include <X11/keysym.h>
+
+#include "dwm.h"
+
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */

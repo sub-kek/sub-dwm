@@ -26,6 +26,6 @@ uninstall:
 	rm -f ${PREFIX}/bin/dwm
 
 config:
-	cp src/$@.def.h src/$@.h 
+	cp src/$@.h src/$@.def.h
 
 .PHONY: all dwm clean cmake_generate cmake_build install uninstall src/config.h
